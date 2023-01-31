@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: b65f9d0627ac5ed4b8e88c63abb1cad5
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - GL-AntiquePlus
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 71de2af3629a13c4c9167c6f666347f2, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
