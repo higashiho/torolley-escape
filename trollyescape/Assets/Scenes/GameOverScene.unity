@@ -363,7 +363,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Retry\t\t:\t\tENTER\nExit\t\t\t\t:\t\tESCAPE"
+  m_Text: "Retry\t\t:\t\tSPACE\nExit\t\t\t\t:\t\tESCAPE"
 --- !u!222 &408511602
 CanvasRenderer:
   m_ObjectHideFlags: 0

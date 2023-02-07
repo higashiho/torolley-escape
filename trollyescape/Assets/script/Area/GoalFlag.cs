@@ -61,7 +61,7 @@ public class GoalFlag : MonoBehaviour
             speedController.Gage = Const.MAX_GAGE;
             mazeOne = true;
             moveCount = 0;
-            mapCamera.GoalFlag = true;
+            mapCamera.GoalFlag = false;
             timer.GoalFlag = false;
             bounusCount.CountBounus = 0;
         }
@@ -72,6 +72,6 @@ public class GoalFlag : MonoBehaviour
     {
         this.transform.rotation = new Quaternion(0, 0, 0, 0);
         randStage.AreaCreate();
-        MapCamera.FindCallback.Invoke();
+        mapCamera.FindCallback.Invoke();
     }
 }

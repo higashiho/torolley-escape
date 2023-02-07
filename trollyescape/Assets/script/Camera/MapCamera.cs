@@ -25,7 +25,7 @@ public class MapCamera : MonoBehaviour
     public bool GoalFlag{get{return goalFlag;} set{goalFlag = value;}}
     
     // イベント
-    public static UnityAction FindCallback{get;private set;}
+    public UnityAction FindCallback{get;private set;} = null;
 
 
     private void Awake() 
@@ -39,7 +39,7 @@ public class MapCamera : MonoBehaviour
     {
         trolly = GameObject.FindWithTag("trolly");
         speedController = trolly.gameObject.GetComponent<SpeedController>();
-        FindCallback?.Invoke();
+        FindCallback.Invoke();
     }
 
     // Update is called once per frame
